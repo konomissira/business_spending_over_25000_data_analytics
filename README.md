@@ -24,20 +24,24 @@ This project analyses spending data in the Department for Business, Innovation, 
 ## Installation and Setup
 
 1. Clone the repository:
+   
    git clone https://github.com/konomissira/business_spending_over_25000_data_analytics.git
 
-    cd business_spending_over_25000_data_analytics
+   cd business_spending_over_25000_data_analytics
 
-2. Set up a Python virtual environment: for **MacOS** User
+2. Set up a Python virtual environment: for **MacOS** User:
+   
    python3 -m venv .venv -> (To create virtual environment)
    source .venv/bin/activate -> (To activate virtual environment)
 
 3. Install required dependencies:
+   
    pip install -r requirements.txt
 
 ## Run the Batch Pipeline
 
 1. Navigate to the project directory:
+   
    cd src
    python batch_pipeline.py
    View output file in the data/transformed_data/ directory.
