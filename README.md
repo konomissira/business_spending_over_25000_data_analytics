@@ -32,9 +32,10 @@ This project analyses spending data in the Department for Business, Innovation, 
 2. Set up a Python virtual environment: for **MacOS** User:
    
    python3 -m venv .venv -> (To create virtual environment)
+   
    source .venv/bin/activate -> (To activate virtual environment)
 
-3. Install required dependencies:
+4. Install required dependencies:
    
    pip install -r requirements.txt
 
