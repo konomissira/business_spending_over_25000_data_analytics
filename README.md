@@ -45,6 +45,7 @@ This project analyses spending data in the Department for Business, Innovation, 
    
    cd src
    python batch_pipeline.py
+   
    View output file in the data/transformed_data/ directory.
 
 ## Future Enhancements
