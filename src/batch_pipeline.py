@@ -43,3 +43,4 @@ if __name__ == "__main__":
     input_file = "../data/processed_data/cleaned_data.csv"
     output_file = "../data/transformed_data/aggregated_data.csv"
     batch_pipeline(input_file, output_file)
+
